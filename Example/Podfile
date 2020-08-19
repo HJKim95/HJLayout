@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HJLayout_Example' do
+  pod 'HJLayout', :path => '../'
+
+  target 'HJLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
