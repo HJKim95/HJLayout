@@ -1,0 +1,16 @@
+PODS:
+  - HJLayout (0.1.0)
+
+DEPENDENCIES:
+  - HJLayout (from `../`)
+
+EXTERNAL SOURCES:
+  HJLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJLayout: 6e1437bdbe7662fbaee1cd8c18080b20e8d83429
+
+PODFILE CHECKSUM: d092b4c78208a337bdd619bd66b57724d5e6d7a9
+
+COCOAPODS: 1.9.1

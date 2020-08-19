@@ -1,0 +1,6 @@
+framework module Pods_HJLayout_Example {
+  umbrella header "Pods-HJLayout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

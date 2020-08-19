@@ -1,0 +1,22 @@
+{
+  "name": "HJLayout",
+  "version": "0.1.0",
+  "summary": "A short description of HJLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HJKim95/HJLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HJKim95": "25ephipany@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/HJKim95/HJLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HJLayout/Classes/**/*"
+}

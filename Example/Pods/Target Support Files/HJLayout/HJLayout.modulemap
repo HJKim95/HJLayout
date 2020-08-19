@@ -1,0 +1,6 @@
+framework module HJLayout {
+  umbrella header "HJLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
