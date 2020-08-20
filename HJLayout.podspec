@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HJLayout'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HJLayout.'
+  s.summary          = 'Helps to use several collectionview custom layouts.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Helps to use several collectionview custom layouts. Install library into your project, never have to write custom layouts again!
                        DESC
 
   s.homepage         = 'https://github.com/HJKim95/HJLayout'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'HJKim95' => '25ephipany@naver.com' }
   s.source           = { :git => 'https://github.com/HJKim95/HJLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version       = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HJLayout/Classes/**/*'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

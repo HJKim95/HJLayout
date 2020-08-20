@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0832B122384FBD275951B65A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0832B122384FBD275951B65A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		48F0218E314317DC9ECC3B7A /* Pods-HJLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HJLayout_Tests/Pods-HJLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C76B565BA5C03639D730609 /* Pods-HJLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-HJLayout_Tests/Pods-HJLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HJLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		84CF3278BCD0F6751740BE8B /* Pods_HJLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		854A2D50C615573C61F0FAD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		854A2D50C615573C61F0FAD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A90BC3A05702E3B3C62EC93A /* Pods_HJLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3DBB3852FCF2C76BD67322F /* HJLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HJLayout.podspec; path = ../HJLayout.podspec; sourceTree = "<group>"; };
+		B3DBB3852FCF2C76BD67322F /* HJLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJLayout.podspec; path = ../HJLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA035BC0C0585F9DF4DC19F0 /* Pods-HJLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-HJLayout_Example/Pods-HJLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3FC8F52C96B119205BE7D6C /* Pods-HJLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-HJLayout_Example/Pods-HJLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				48F0218E314317DC9ECC3B7A /* Pods-HJLayout_Tests.debug.xcconfig */,
 				5C76B565BA5C03639D730609 /* Pods-HJLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

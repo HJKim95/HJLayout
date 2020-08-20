@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101E955B24EE3A6C003E9D35 /* HJLayoutTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */; };
+		101E955C24EE3A6C003E9D35 /* TransformingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */; };
 		14910B6817108C0D14F4611119A68F3A /* Pods-HJLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBEAE853B02E0EE412D9393DBDE48B0 /* Pods-HJLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294D652EA3FC1C9D8D4C42A4ABE46AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		495C23A3DB2CC796BBD156D6FD409D17 /* Pods-HJLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4A7E41748E3487ACAC02291FE25EA0 /* Pods-HJLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,7 +18,6 @@
 		770AA5016197A9CD3B5764F575EE948C /* Pods-HJLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18AD5340C60DC4FB493ECC79E39A2E /* Pods-HJLayout_Tests-dummy.m */; };
 		94178BD626B2DDC8F84F6FA046B9302C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CF9B22ACB4505D2D10788AB1B1B16451 /* HJLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 962B48DE3AE305C0E0882833D47E42A4 /* HJLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8280C7DCA3AAC1E972F04AB71C416F6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D634CCD0A4EDC1D68F8C46FDD8BAEE /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,38 +39,39 @@
 
 /* Begin PBXFileReference section */
 		0EA7E084CE193263ADF4859567F9358E /* Pods-HJLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1EDD499840825D6DF2EE8A3C7C2E41F8 /* Pods_HJLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HJLayout_Example.framework; path = "Pods-HJLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJLayoutTransformer.swift; sourceTree = "<group>"; };
+		101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformingLayout.swift; sourceTree = "<group>"; };
+		1EDD499840825D6DF2EE8A3C7C2E41F8 /* Pods_HJLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3829BA0E3EBF18685D87EBA3E268FCA7 /* HJLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJLayout.debug.xcconfig; sourceTree = "<group>"; };
-		410E1F23638D8A6B7B68744D13B4D04B /* Pods_HJLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HJLayout_Tests.framework; path = "Pods-HJLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410E1F23638D8A6B7B68744D13B4D04B /* Pods_HJLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		495530B68A61560DDAD87B3555FB6228 /* Pods-HJLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		4F1BB5B589B0381373CBF9221FC2D435 /* Pods-HJLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		5301C8082E20459AD59FCB8D88ABFBE1 /* HJLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJLayout-dummy.m"; sourceTree = "<group>"; };
 		5B4A7E41748E3487ACAC02291FE25EA0 /* Pods-HJLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6863CD5591A439E15CF4422058DA2AC1 /* Pods-HJLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJLayout_Example.modulemap"; sourceTree = "<group>"; };
 		6A18AD5340C60DC4FB493ECC79E39A2E /* Pods-HJLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJLayout_Tests-dummy.m"; sourceTree = "<group>"; };
-		6D2290A98992E0F2070A5E4D7EC8BAA0 /* HJLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HJLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D2290A98992E0F2070A5E4D7EC8BAA0 /* HJLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		702340CD58EC3A527A943C61ECC6A902 /* HJLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJLayout.release.xcconfig; sourceTree = "<group>"; };
-		74CF7D8A0F913F684DCF678BAA3A768F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74CF7D8A0F913F684DCF678BAA3A768F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B93AFD4939875C6EAFFFE4B5EBA36CF /* Pods-HJLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E83B14E588C003138F7F54002D813CA /* HJLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJLayout.modulemap; sourceTree = "<group>"; };
 		90DAA368DF72240474B426718FBD48A7 /* Pods-HJLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9629A06947D0F23511FA5A39B9DC89EC /* Pods-HJLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		962B48DE3AE305C0E0882833D47E42A4 /* HJLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJLayout-umbrella.h"; sourceTree = "<group>"; };
 		966BB1B6DEDDE6F82E7B8DE9CA3EF80B /* Pods-HJLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJLayout_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBEAE853B02E0EE412D9393DBDE48B0 /* Pods-HJLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		A906250711B0EC899F9578044463F057 /* HJLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HJLayout-Info.plist"; sourceTree = "<group>"; };
 		ACF54B88A497DF46584AC733C0EFFA10 /* HJLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJLayout-prefix.pch"; sourceTree = "<group>"; };
-		B5D5B51C2E0F7DA54682417968C2EDCF /* HJLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HJLayout.framework; path = HJLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D5B51C2E0F7DA54682417968C2EDCF /* HJLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HJLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50057FBEA5E8579A94E6BFAE9EC786E /* Pods-HJLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC931397A65EC61BF21D6D2CA378C89B /* Pods-HJLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CFA4B1C555E7CA209B3A98D1E8367D0F /* Pods-HJLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJLayout_Tests-Info.plist"; sourceTree = "<group>"; };
 		EA06F53085DC4425FD94ED678EC201B0 /* Pods-HJLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EBE9070884E571576503B71445789A9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EBE9070884E571576503B71445789A9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F1247811C4E387C8E3B96E171ACDB706 /* Pods-HJLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5367CF0F8DE94FBF565162574EF9A5C /* Pods-HJLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F9D634CCD0A4EDC1D68F8C46FDD8BAEE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HJLayout/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		101E955724EE3A42003E9D35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				101E955D24EE3ACC003E9D35 /* Layouts */,
+				101E955824EE3A4A003E9D35 /* Transfomer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		101E955824EE3A4A003E9D35 /* Transfomer */ = {
+			isa = PBXGroup;
+			children = (
+				101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */,
+			);
+			path = Transfomer;
+			sourceTree = "<group>";
+		};
+		101E955D24EE3ACC003E9D35 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
 		75E7E63E7F5A7E4812433F864670953C /* Pods-HJLayout_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +166,7 @@
 		80D77CF667DA1396C5F1ED6BCCA4C0B0 /* HJLayout */ = {
 			isa = PBXGroup;
 			children = (
-				F9D634CCD0A4EDC1D68F8C46FDD8BAEE /* ReplaceMe.swift */,
+				101E955724EE3A42003E9D35 /* Classes */,
 				7A96B1D353D0F6FA86372662CF948A42 /* Pod */,
 				B60B6C9D141BADAA54DBD46E6DB9701C /* Support Files */,
 			);
@@ -317,6 +344,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8B741C5056967166CD94232C712E12D5 = {
+						LastSwiftMigration = 1160;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -368,7 +400,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B332A330E728878A4E5BFBE09BF1609 /* HJLayout-dummy.m in Sources */,
-				E8280C7DCA3AAC1E972F04AB71C416F6 /* ReplaceMe.swift in Sources */,
+				101E955B24EE3A6C003E9D35 /* HJLayoutTransformer.swift in Sources */,
+				101E955C24EE3A6C003E9D35 /* TransformingLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 702340CD58EC3A527A943C61ECC6A902 /* HJLayout.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -476,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3829BA0E3EBF18685D87EBA3E268FCA7 /* HJLayout.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -496,6 +531,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -590,8 +626,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
