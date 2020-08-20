@@ -12,7 +12,7 @@ public class TransformingLayout: UICollectionViewLayout {
 
     var cache = [UICollectionViewLayoutAttributes]()
     
-    var transformer_type = HJTransformerType.crossFading // default: crossFading
+    public var transformer_type = HJTransformerType.crossFading // default: crossFading
     
     var itemSize: CGSize = CGSize.zero
     
