@@ -16,6 +16,7 @@ public enum HJTransformerType {
     case ferrisWheel
     case invertedFerrisWheel
     case cubic
+    case noType
     
     func convertName() -> String {
         switch self {
