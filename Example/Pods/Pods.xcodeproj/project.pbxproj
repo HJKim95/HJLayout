@@ -115,8 +115,6 @@
 		101E955724EE3A42003E9D35 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */,
-				101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */,
 				101E955D24EE3ACC003E9D35 /* Layouts */,
 				101E955824EE3A4A003E9D35 /* Transfomer */,
 			);
@@ -126,6 +124,7 @@
 		101E955824EE3A4A003E9D35 /* Transfomer */ = {
 			isa = PBXGroup;
 			children = (
+				101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */,
 			);
 			path = Transfomer;
 			sourceTree = "<group>";
@@ -133,6 +132,7 @@
 		101E955D24EE3ACC003E9D35 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
