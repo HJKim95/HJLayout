@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.swift_version       = '4.0'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HJLayout/**/*'
+  s.source_files = 'HJLayout/Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'HJLayout' => ['HJLayout/Assets/*.png']
