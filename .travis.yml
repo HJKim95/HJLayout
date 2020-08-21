@@ -7,6 +7,7 @@ language: objective-c
 xcode_project: HJLayout.xcodeproj
 xcode_scheme: HJLayout
 xcode_sdk: iphonesimulator9.3
+before_script: cd Example #specifying build folder
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
