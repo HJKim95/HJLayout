@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		101E955B24EE3A6C003E9D35 /* HJLayoutTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */; };
 		101E955C24EE3A6C003E9D35 /* TransformingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */; };
+		101E958D24EF66B6003E9D35 /* StickyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E958924EF66B6003E9D35 /* StickyHeaderLayout.swift */; };
+		101E958E24EF66B6003E9D35 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E958A24EF66B6003E9D35 /* PinterestLayout.swift */; };
+		101E958F24EF66B6003E9D35 /* UltraVisualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E958B24EF66B6003E9D35 /* UltraVisualLayout.swift */; };
+		101E959024EF66B6003E9D35 /* TimbreLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E958C24EF66B6003E9D35 /* TimbreLayout.swift */; };
 		14910B6817108C0D14F4611119A68F3A /* Pods-HJLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBEAE853B02E0EE412D9393DBDE48B0 /* Pods-HJLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294D652EA3FC1C9D8D4C42A4ABE46AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		495C23A3DB2CC796BBD156D6FD409D17 /* Pods-HJLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4A7E41748E3487ACAC02291FE25EA0 /* Pods-HJLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +45,10 @@
 		0EA7E084CE193263ADF4859567F9358E /* Pods-HJLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		101E955924EE3A6C003E9D35 /* HJLayoutTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJLayoutTransformer.swift; sourceTree = "<group>"; };
 		101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformingLayout.swift; sourceTree = "<group>"; };
+		101E958924EF66B6003E9D35 /* StickyHeaderLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyHeaderLayout.swift; sourceTree = "<group>"; };
+		101E958A24EF66B6003E9D35 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		101E958B24EF66B6003E9D35 /* UltraVisualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UltraVisualLayout.swift; sourceTree = "<group>"; };
+		101E958C24EF66B6003E9D35 /* TimbreLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimbreLayout.swift; sourceTree = "<group>"; };
 		1EDD499840825D6DF2EE8A3C7C2E41F8 /* Pods_HJLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3829BA0E3EBF18685D87EBA3E268FCA7 /* HJLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJLayout.debug.xcconfig; sourceTree = "<group>"; };
@@ -132,6 +140,10 @@
 		101E955D24EE3ACC003E9D35 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				101E958A24EF66B6003E9D35 /* PinterestLayout.swift */,
+				101E958924EF66B6003E9D35 /* StickyHeaderLayout.swift */,
+				101E958C24EF66B6003E9D35 /* TimbreLayout.swift */,
+				101E958B24EF66B6003E9D35 /* UltraVisualLayout.swift */,
 				101E955A24EE3A6C003E9D35 /* TransformingLayout.swift */,
 			);
 			path = Layouts;
@@ -399,7 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101E958E24EF66B6003E9D35 /* PinterestLayout.swift in Sources */,
 				5B332A330E728878A4E5BFBE09BF1609 /* HJLayout-dummy.m in Sources */,
+				101E958F24EF66B6003E9D35 /* UltraVisualLayout.swift in Sources */,
+				101E959024EF66B6003E9D35 /* TimbreLayout.swift in Sources */,
+				101E958D24EF66B6003E9D35 /* StickyHeaderLayout.swift in Sources */,
 				101E955B24EE3A6C003E9D35 /* HJLayoutTransformer.swift in Sources */,
 				101E955C24EE3A6C003E9D35 /* TransformingLayout.swift in Sources */,
 			);
