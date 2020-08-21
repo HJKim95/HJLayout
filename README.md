@@ -1,6 +1,6 @@
 # HJLayout
 
-[![CI Status](https://img.shields.io/travis/HJKim95/HJLayout.svg?style=flat)](https://travis-ci.org/HJKim95/HJLayout)
+[![CI Status](https://img.shields.io/travis/HJKim95/HJLayout.svg?style=flat)](https://travis-ci.org/HJKim95/HJLayout?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/HJLayout.svg?style=flat)](https://cocoapods.org/pods/HJLayout)
 [![License](https://img.shields.io/cocoapods/l/HJLayout.svg?style=flat)](https://cocoapods.org/pods/HJLayout)
 [![Platform](https://img.shields.io/cocoapods/p/HJLayout.svg?style=flat)](https://cocoapods.org/pods/HJLayout)
