@@ -6,7 +6,7 @@ osx_image: xcode11.6
 language: objective-c
 xcode_workspace: HJLayout.xcworkspace
 xcode_scheme: HJLayout-Example
-xcode_sdk: iphonesimulator9.3
+xcode_destination: platform=iOS Simulator,OS=11.6,name=iPhone 11pro
 before_script: cd Example #specifying build folder
 # cache: cocoapods
 # podfile: Example/Podfile
