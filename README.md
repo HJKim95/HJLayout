@@ -11,6 +11,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS 10.0+ 
+* Xcode 11+
+* Swift 5.0+
 
 ## Installation
 * Manually
@@ -77,6 +80,69 @@ collectionview.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 50, right: 
 ---
 
 ### 2. Demo2 - Transforming <a id='demo_transforming'></a>
+|crossFading|
+|---|
+|![crossFading](https://user-images.githubusercontent.com/29699823/91014104-cb766800-e623-11ea-821f-454f289b8493.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .crossFading
+```
+---
+
+|zoomOut|
+|---|
+|![zoomOut](https://user-images.githubusercontent.com/29699823/91014161-dd580b00-e623-11ea-954f-fac8fff5d89b.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .zoomOut
+```
+---
+
+|depth|
+|---|
+|![depth](https://user-images.githubusercontent.com/29699823/91014141-d4ffd000-e623-11ea-84c1-eadf4f9bd70f.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .depth
+```
+---
+
+|linear|
+|---|
+|![linear](https://user-images.githubusercontent.com/29699823/91014160-db8e4780-e623-11ea-8cbe-c68961db64b8.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .linear
+```
+---
+
+|ferrisWheel|
+|---|
+|![ferrisWheel](https://user-images.githubusercontent.com/29699823/91014145-d6c99380-e623-11ea-947f-46c96b84aaa0.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .ferrisWheel
+```
+---
+
+|invertedFerrisWheel|
+|---|
+|![invertedFerrisWheel](https://user-images.githubusercontent.com/29699823/91014157-d92bed80-e623-11ea-8333-88050f46ad9b.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .invertedFerrisWheel
+```
+---
+
+|cubic|
+|---|
+|![cubic](https://user-images.githubusercontent.com/29699823/91014134-d3360c80-e623-11ea-83a6-78664437e220.gif)|
+```swift
+let layout = TransformingLayout()
+layout.transformer_type = .cubic
+```
+---
+
 
 ## Tutorial
 * [Getting started with Layout](#getting_started_layout)
