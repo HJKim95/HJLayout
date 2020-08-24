@@ -15,7 +15,7 @@ public protocol PinterestLayoutDelegate {
 
 public class PinterestLayoutAttributes: UICollectionViewLayoutAttributes {
     
-    var imageHeight: CGFloat = 0
+    public var imageHeight: CGFloat = 0
     var headerDeltaY: CGFloat = 0
     
     public override func copy(with zone: NSZone? = nil) -> Any {

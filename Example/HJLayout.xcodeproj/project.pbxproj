@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101E95BB24F34B5F003E9D35 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95B524F34B5F003E9D35 /* CategoryController.swift */; };
+		101E95BE24F34BA1003E9D35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95BD24F34BA1003E9D35 /* Extensions.swift */; };
+		101E95C124F3505A003E9D35 /* PinterestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95C024F3505A003E9D35 /* PinterestController.swift */; };
+		101E95C324F3518C003E9D35 /* StickyHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95C224F3518C003E9D35 /* StickyHeaderController.swift */; };
+		101E95C624F351A3003E9D35 /* UltraVisualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95C424F351A2003E9D35 /* UltraVisualController.swift */; };
+		101E95C724F351A3003E9D35 /* TimbreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95C524F351A3003E9D35 /* TimbreController.swift */; };
+		101E95C924F3520D003E9D35 /* TransformingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101E95C824F3520D003E9D35 /* TransformingController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -29,12 +35,18 @@
 
 /* Begin PBXFileReference section */
 		0832B122384FBD275951B65A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		101E95B524F34B5F003E9D35 /* CategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		101E95BD24F34BA1003E9D35 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		101E95C024F3505A003E9D35 /* PinterestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestController.swift; sourceTree = "<group>"; };
+		101E95C224F3518C003E9D35 /* StickyHeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyHeaderController.swift; sourceTree = "<group>"; };
+		101E95C424F351A2003E9D35 /* UltraVisualController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UltraVisualController.swift; sourceTree = "<group>"; };
+		101E95C524F351A3003E9D35 /* TimbreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimbreController.swift; sourceTree = "<group>"; };
+		101E95C824F3520D003E9D35 /* TransformingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformingController.swift; sourceTree = "<group>"; };
 		48F0218E314317DC9ECC3B7A /* Pods-HJLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HJLayout_Tests/Pods-HJLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C76B565BA5C03639D730609 /* Pods-HJLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-HJLayout_Tests/Pods-HJLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HJLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -69,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101E95BF24F3504C003E9D35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				101E95B524F34B5F003E9D35 /* CategoryController.swift */,
+				101E95C024F3505A003E9D35 /* PinterestController.swift */,
+				101E95C224F3518C003E9D35 /* StickyHeaderController.swift */,
+				101E95C424F351A2003E9D35 /* UltraVisualController.swift */,
+				101E95C524F351A3003E9D35 /* TimbreController.swift */,
+				101E95C824F3520D003E9D35 /* TransformingController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		506CCE9BF3326E4DA0D1430A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +127,9 @@
 		607FACD21AFB9204008FA782 /* Example for HJLayout */ = {
 			isa = PBXGroup;
 			children = (
+				101E95BD24F34BA1003E9D35 /* Extensions.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				101E95BF24F3504C003E9D35 /* Controllers */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -330,8 +356,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				101E95C724F351A3003E9D35 /* TimbreController.swift in Sources */,
+				101E95BB24F34B5F003E9D35 /* CategoryController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				101E95C124F3505A003E9D35 /* PinterestController.swift in Sources */,
+				101E95C324F3518C003E9D35 /* StickyHeaderController.swift in Sources */,
+				101E95C924F3520D003E9D35 /* TransformingController.swift in Sources */,
+				101E95C624F351A3003E9D35 /* UltraVisualController.swift in Sources */,
+				101E95BE24F34BA1003E9D35 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

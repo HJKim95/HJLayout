@@ -18,7 +18,7 @@ public enum HJTransformerType {
     case cubic
     case noType
     
-    func convertName() -> String {
+    public func convertName() -> String {
         switch self {
         case .crossFading:
             return "crossFading"
@@ -39,7 +39,7 @@ public enum HJTransformerType {
         }
     }
     
-    static var allTypes: [HJTransformerType] {
+    public static var allTypes: [HJTransformerType] {
         return [.crossFading,.zoomOut,.depth,.linear,.ferrisWheel,.invertedFerrisWheel,.cubic]
     }
 }

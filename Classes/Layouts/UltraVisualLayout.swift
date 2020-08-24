@@ -8,10 +8,10 @@
 
 import UIKit
 
-struct UltravisualLayoutConstants {
-    struct Cell {
-        static let standardHeight: CGFloat = 100
-        static let featuredHeight: CGFloat = 280
+public struct UltravisualLayoutConstants {
+    public struct Cell {
+        public static let standardHeight: CGFloat = 100
+        public static let featuredHeight: CGFloat = 280
     }
 }
 
