@@ -82,7 +82,7 @@ collectionview.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 50, right: 
 ### 2. Demo2 - Transforming <a id='demo_transforming'></a>
 |crossFading|
 |---|
-|![crossFading](https://user-images.githubusercontent.com/29699823/91014104-cb766800-e623-11ea-821f-454f289b8493.gif)|
+|![crossFading](https://user-images.githubusercontent.com/29699823/91015125-98cd6f00-e625-11ea-8675-6efbabf4a8a6.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .crossFading
@@ -91,7 +91,7 @@ layout.transformer_type = .crossFading
 
 |zoomOut|
 |---|
-|![zoomOut](https://user-images.githubusercontent.com/29699823/91014161-dd580b00-e623-11ea-954f-fac8fff5d89b.gif)|
+|![zoomOut](https://user-images.githubusercontent.com/29699823/91015164-a4209a80-e625-11ea-886e-f53d1cb507cd.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .zoomOut
@@ -100,7 +100,7 @@ layout.transformer_type = .zoomOut
 
 |depth|
 |---|
-|![depth](https://user-images.githubusercontent.com/29699823/91014141-d4ffd000-e623-11ea-84c1-eadf4f9bd70f.gif)|
+|![depth](https://user-images.githubusercontent.com/29699823/91015154-a125aa00-e625-11ea-862b-0826af16202e.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .depth
@@ -109,7 +109,7 @@ layout.transformer_type = .depth
 
 |linear|
 |---|
-|![linear](https://user-images.githubusercontent.com/29699823/91014160-db8e4780-e623-11ea-8cbe-c68961db64b8.gif)|
+|![linear](https://user-images.githubusercontent.com/29699823/91015161-a3880400-e625-11ea-9e73-a58bee7a7927.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .linear
@@ -118,7 +118,7 @@ layout.transformer_type = .linear
 
 |ferrisWheel|
 |---|
-|![ferrisWheel](https://user-images.githubusercontent.com/29699823/91014145-d6c99380-e623-11ea-947f-46c96b84aaa0.gif)|
+|![ferrisWheel](https://user-images.githubusercontent.com/29699823/91015156-a256d700-e625-11ea-953c-31850638ac17.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .ferrisWheel
@@ -127,7 +127,7 @@ layout.transformer_type = .ferrisWheel
 
 |invertedFerrisWheel|
 |---|
-|![invertedFerrisWheel](https://user-images.githubusercontent.com/29699823/91014157-d92bed80-e623-11ea-8333-88050f46ad9b.gif)|
+|![invertedFerrisWheel](https://user-images.githubusercontent.com/29699823/91015159-a2ef6d80-e625-11ea-8e08-e4f237c40a05.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .invertedFerrisWheel
@@ -136,7 +136,7 @@ layout.transformer_type = .invertedFerrisWheel
 
 |cubic|
 |---|
-|![cubic](https://user-images.githubusercontent.com/29699823/91014134-d3360c80-e623-11ea-83a6-78664437e220.gif)|
+|![cubic](https://user-images.githubusercontent.com/29699823/91015149-9ff47d00-e625-11ea-8a83-2c6986ec2550.gif)|
 ```swift
 let layout = TransformingLayout()
 layout.transformer_type = .cubic
