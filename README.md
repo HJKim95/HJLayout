@@ -1,6 +1,6 @@
 # HJLayout
 
-[![Languages](https://img.shields.io/badge/language-swift%205.0%20-FF69B4.svg?style=plastic)] <br/> 
+[![Languages](https://img.shields.io/badge/language-swift%205.0%20-FF69B4.svg?style=plastic)]() <br/> 
 [![CI Status](https://img.shields.io/travis/HJKim95/HJLayout.svg?style=flat)](https://travis-ci.org/HJKim95/HJLayout?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/HJLayout.svg?style=flat)](https://cocoapods.org/pods/HJLayout)
 [![License](https://img.shields.io/cocoapods/l/HJLayout.svg?style=flat)](https://cocoapods.org/pods/HJLayout)
