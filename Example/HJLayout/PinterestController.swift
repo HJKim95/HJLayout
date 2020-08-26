@@ -118,11 +118,13 @@ class pintCell: UICollectionViewCell {
         
     }
     
+    var pintImageConstraint: NSLayoutConstraint?
+    var pintAnnotationConstraint: NSLayoutConstraint?
+    
     override func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) {
         super.apply(layoutAttributes)
-        let attributes = layoutAttributes as! PinterestLayoutAttributes
-        pintImage.frame = CGRect(x: 0, y: 0, width: frame.width, height: attributes.imageHeight)
-        pintAnnotation.frame = CGRect(x: 0, y: attributes.imageHeight, width: frame.width, height: 60)
+        pintImageConstraint = pintImage.anchor(self.topAnchor, left: self.leftAnchor, bottom: nil, right: self.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0).first
+        pintAnnotationConstraint = pintAnnotation.anchor(nil, left: self.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 60).first
     }
 }
 
@@ -150,10 +152,14 @@ class pintHeaderCell: UICollectionViewCell {
         
     }
     
+    var pintHeaderImageConstraint: NSLayoutConstraint?
+    
     override func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) {
         super.apply(layoutAttributes)
 //        let attributes = layoutAttributes as! PinterestLayoutAttributes
-        pintHeaderImage.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+//        let imageHeight = attributes.imageHeight
+//        attributes.headerDeltaY
+        pintHeaderImageConstraint = pintHeaderImage.anchor(self.topAnchor, left: self.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0).first
     }
 }
 

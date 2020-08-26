@@ -48,7 +48,30 @@ let layout = PinterestLayout()
 layout.delegate = self
 layout.numberOfColumns = 2
 layout.cellPadding = 10
+```
+> Must call two functions and check examples.
+```swift
+func collectionView(collectionView: UICollectionView, heightForImageAtIndexPath indexPath: NSIndexPath, withWidth: CGFloat) -> CGFloat {
+    let random = arc4random_uniform(4) + 1
+    return CGFloat((random * 100))
+}
+```
+```swift
+func collectionView(collectionView: UICollectionView, heightForAnnotationAtIndexPath indexPath: NSIndexPath, withWidth: CGFloat) -> CGFloat {
+    return 60
+}
+```
+### For Stretchy Header
+> should set layout headerReferenceSizeHeight & register header cell
+```swift
+let layout = PinterestLayout()
 layout.headerReferenceSizeHeight = 180
+```
+```swift
+func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+    let cell = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "headerid", for: indexPath) as! pintHeaderCell
+    return cell
+}
 ```
 ---
 
@@ -152,7 +175,7 @@ layout.transformer_type = .cubic
 
 ### 1. Getting started with Layout <a id='getting_started_layout'></a>
 
-* Getting started with code
+* Getting started with code<br/> 
 Check examples for needed properties.
 
 ```swift
@@ -169,7 +192,8 @@ cv.dataSource = self
 
 ### 2. Getting started with TransformingLayout <a id='getting_started_transforming'></a>
 
-* Getting started with code
+* Getting started with code<br/> 
+Check examples for needed properties.
 
 ```swift
 // Create a layout and set property
