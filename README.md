@@ -1,4 +1,3 @@
-# HJLayout
 
 ![HJLayout_main](https://user-images.githubusercontent.com/29699823/91246207-3b066780-e78a-11ea-8f62-eb2707bf3b6a.png)
 [![Languages](https://img.shields.io/badge/language-swift%205.0%20-FF69B4.svg?style=plastic)](#) <br/> 
